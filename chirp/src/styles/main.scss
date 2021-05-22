@@ -1,0 +1,24 @@
+@import "variables";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $main-font-size;
+  color: $main-font-color;
+  background-color: $bg-color;
+}
+
+a {
+  text-decoration: none;
+  color: $main-font-color;
+}
+
+ul {
+  list-style: none;
+}
